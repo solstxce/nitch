@@ -11,7 +11,7 @@ import
 # the main function for drawing fetch
 proc drawInfo*(asciiArt: bool) =
   let  # distro id (arch, manjaro, debian)
-    distroId = getDistroId()
+    distroId = "arch"
 
   let  # logo and it color
     coloredLogo = getLogo(distroId)  # color + logo tuple
